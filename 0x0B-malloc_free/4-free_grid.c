@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 /**
@@ -7,7 +7,6 @@ i#include <stdio.h>
 * @height: height dimension of grid
 * Description: frees memory of grid
 * Return: nothing
- *
 */
 void free_grid(int **grid, int height)
 {
