@@ -1,0 +1,20 @@
+#include <stdlib.h>
+/**
+ * create_array - function to create array
+ *@c:param1
+ *@size:param2
+ *Return:it is going to return char
+ *
+ */
+char *create_array(unsigned int size, char c)
+{
+unsigned int i;
+char *ptr = malloc(size * sizeOf(char));
+if (size == 0 || ptr == NULL)
+return (NULL);
+for (i = 0; i < size; i++)
+{
+ptr[i] = c;
+}
+return (ptr);
+}
