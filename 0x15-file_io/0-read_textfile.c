@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * read_textfile-function thta reads text file
  * @filename:the name of the file
